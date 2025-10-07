@@ -1,0 +1,26 @@
+{
+  "name": "ethereal",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "virtual music player",
+    "aesthetic",
+    "dekstop app"
+  ],
+  "author": "jessie",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^38.2.1"
+  },
+  "build": {
+    "appId": "com.jessie.ethereal",
+    "productName": "Ethereal",
+    "mac": {
+      "icon": "icon.png"
+    }
+  }
+}
